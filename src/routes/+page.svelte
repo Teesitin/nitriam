@@ -1,9 +1,8 @@
 <script>
 	import { goto } from "$app/navigation";
-
-    import PersonaButton from '$lib/components/PersonaButton.svelte';
-    
-    import SliderNavigation from '$lib/components/SliderNavigation.svelte';
+	import FrontPageGallery from '$lib/components/FrontPageGallery.svelte';
+	import PersonaButton from '$lib/components/PersonaButton.svelte';
+	import SliderNavigation from '$lib/components/SliderNavigation.svelte';
 
     function increment(){
         goto("/inventory")
@@ -55,3 +54,4 @@
         </div>
     <SliderNavigation />
 </div>
+<FrontPageGallery />

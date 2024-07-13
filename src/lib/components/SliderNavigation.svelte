@@ -1,19 +1,16 @@
-<script>
+<script lang="ts">
     import { goto } from '$app/navigation';
 
     let activeSlide = 1;
 
     const slides = [
-    { name: 'Day', path: '/inventory' },
-    { name: 'Night', path: '/' }
+        { name: 'Day', path: '/inventory' },
+        { name: 'Night', path: '/' }
     ];
 
-    /**
-     * @param {number} index
-     */
-    function setActive(index) {
-    activeSlide = index;
-    goto(slides[index].path);
+    function setActive(index: number) {
+        activeSlide = index;
+        goto(slides[index].path);
     }
 </script>
 
