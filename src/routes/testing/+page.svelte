@@ -3,7 +3,6 @@
 
     import DiveButton from '$lib/components/DiveButton.svelte';
     
-    
     import VideoBackground from '$lib/components/VideoBackground.svelte';
 
     function increment(){
@@ -42,10 +41,10 @@
         <div class="flex justify-end items-start h-full mr-16">
             <div class="max-w-lg">
                 <div class="w-2/3 text-7xl p-48">
-                    <div class="font-extralight pb-3 -skew-y-6">Take</div>
-                    <div class="text-cyan-300 font-light pb-6 skew-y-6 skew-x-1">the</div>
-                    <div class="text-cyan-400 font- pb-12 skew-x-6">deep</div>
-                    <div class="font-bold text 22xl text-cyan-600 skew-y-3">Dive</div>
+                    <div class="animate-pulse 1s font-extralight pb-3 -skew-y-6">Take</div>
+                    <div class="animate-pulse 3s text-cyan-300 font-light pb-6 skew-y-6 skew-x-1">the</div>
+                    <div class="animate-pulse 6s text-cyan-400 font- pb-12 skew-x-6">deep</div>
+                    <div class="animate-pulse 9s font-bold text 22xl text-cyan-600 skew-y-3">Dive</div>
                 </div>
             </div>
         </div>
