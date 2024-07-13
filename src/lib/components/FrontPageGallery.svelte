@@ -13,6 +13,13 @@
     
 </script>
 
-<div class="w-screen bg-gray-900 h-96">
-
+<div class="w-screen bg-gray-900 p-32">
+    <div class="flex">
+        {#each media as floppa, index}
+            <img src={floppa} alt="test" class="h-[{index}px]"/>
+    
+    
+    
+        {/each}
+    </div>
 </div>
