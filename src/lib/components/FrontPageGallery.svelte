@@ -10,16 +10,13 @@
         'https://tas4.b-cdn.net/media/A%20simple%20and%20colorful%20example%20of%20a%20wheelchair%20model%20created%20in%203D%20Slash%2C%20showcasing%20basic%20geometric%20_1719873620568.png',
         'https://tas4.b-cdn.net/media/A%20highly%20detailed%203D%20model%20of%20a%20futuristic%20soldier%20in%20a%20colorful%20and%20intricate%20armor%20suit%20in%203D%20coat_1719866857180.png',
     ];
-    
 </script>
 
 <div class="w-screen bg-gray-900 p-32">
     <div class="flex">
+        <!-- Use For each loop for bonus -->
         {#each media as floppa, index}
-            <img src={floppa} alt="test" class="h-[{index}px]"/>
-    
-    
-    
+            <img src={floppa} alt="test" class=""/>
         {/each}
     </div>
 </div>
