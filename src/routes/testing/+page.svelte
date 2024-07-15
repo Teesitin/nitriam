@@ -1,9 +1,9 @@
 <script>
 	import { goto } from "$app/navigation";
-
-    import DiveButton from '$lib/components/DiveButton.svelte';
-    
-    import VideoBackground from '$lib/components/VideoBackground.svelte';
+	import DiveButton from '$lib/components/DiveButton.svelte';
+// @ts-ignore
+	import FrontPageGallery from '$lib/components/FrontPageGallery.svelte';
+	import VideoBackground from '$lib/components/VideoBackground.svelte';
 
     function increment(){
         goto("/inventory")
@@ -38,14 +38,17 @@
 
 <div class="relative w-full h-screen overflow-hidden text-cyan-200 pt-20 pb-60">
     <VideoBackground />
-        <div class="flex justify-end items-start h-full mr-16">
-            <div class="max-w-lg">
-                <div class="w-2/3 text-7xl p-48">
-                    <div class="animate-pulse 1s font-extralight pb-3 -skew-y-6">Take</div>
-                    <div class="animate-pulse 3s text-cyan-300 font-light pb-6 skew-y-6 skew-x-1">the</div>
-                    <div class="animate-pulse 6s text-cyan-400 font- pb-12 skew-x-6">deep</div>
-                    <div class="animate-pulse 9s font-bold text 22xl text-cyan-600 skew-y-3">Dive</div>
+        <div class="flex justify-end h-full">
+            <div class="pt-48 pr-12 skew-y-6 -skew-x-12">
+                <FrontPageGallery />
+            </div>
+                <div class="max-w-lg">
+                    <div class="w-2/3 text-7xl pr-48 pt-48 pl-12">
+                        <div class="animate-pulse 1s font-extralight pb-3 -skew-y-6">Take</div>
+                        <div class="animate-pulse 3s text-cyan-300 font-light pb-6 skew-y-6 skew-x-1">the</div>
+                        <div class="animate-pulse 6s text-cyan-400 font- pb-12 skew-x-6">deep</div>
+                        <div class="animate-pulse 9s font-bold text 22xl text-cyan-600 skew-y-3">Dive</div>
+                    </div>
                 </div>
             </div>
-        </div>
 </div>

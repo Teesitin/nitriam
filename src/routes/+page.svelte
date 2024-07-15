@@ -1,6 +1,5 @@
 <script>
 	import { goto } from "$app/navigation";
-	import FrontPageGallery from '$lib/components/FrontPageGallery.svelte';
 	import PersonaButton from '$lib/components/PersonaButton.svelte';
 	import SliderNavigation from '$lib/components/SliderNavigation.svelte';
 
@@ -54,4 +53,3 @@
         </div>
     <SliderNavigation />
 </div>
-<FrontPageGallery />
