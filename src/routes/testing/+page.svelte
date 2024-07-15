@@ -50,5 +50,5 @@
                         <div class="animate-pulse 9s font-bold text 22xl text-cyan-600 skew-y-3">Dive</div>
                     </div>
                 </div>
-            </div>
+        </div>
 </div>
