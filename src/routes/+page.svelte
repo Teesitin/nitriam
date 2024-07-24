@@ -6,6 +6,9 @@
     function increment(){
         goto("/inventory")
     }
+    function databae(){
+        goto("/database")
+    }
 </script>
 
 
@@ -45,7 +48,7 @@
             He met each challenge with vigor and a sharp wit, his spirit unbroken by the hardships he encountered.
             His journey brought him into the depths of the enchanted forest, a place where the trees whispered secrets of the ancient world, and where every leaf and stone seemed imbued with magic.
         </div>
-    <button class="text-blue-400 mb-24 font-bold transition-all duration-500 hover:bg-cyan-500 hover:text-white hover:-inset-1 hover:-skew-y-3 ease-in-out hover:scale-125" on:click={increment}>
+    <button class="text-blue-400 mb-24 font-bold transition-all duration-500 hover:bg-cyan-500 hover:text-white hover:-inset-1 hover:-skew-y-3 ease-in-out hover:scale-125" on:click={databae}>
         More about Lunar
     </button>
         <div class="text-4xl w-1/2 pb-24">
